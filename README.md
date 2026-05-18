@@ -29,7 +29,7 @@ We implemented a robust Stratified K-Fold cross-validation strategy to mirror ra
 | **LightGBM Classifier** | `[Ví dụ: 0.9420]` | `learning_rate`, `num_leaves`, `reg_alpha` |
 | **XGBoost Classifier** | `[Ví dụ: 0.9455]` | `max_depth`, `subsample`, `colsample_bytree` |
 | **CatBoost Classifier** | `[Ví dụ: 0.9470]` | `depth`, `l2_leaf_reg`, `iterations` |
-| **Ensemble (Voting/Stacking)** | **`[Điền điểm cao nhất của bạn vào đây, ví dụ: 0.9510]`** | Combined predictions from top models |
+| **Ensemble (Voting/Stacking)** | **`[0.9510]`** | Combined predictions from top models |
 
 *👉 **Current Standings:** The ensemble pipeline achieves a Cross-Validation ROC-AUC of **[Điền điểm CV vào đây]**, effectively capturing strategic triggers like tire life thresholds and race progress percentages.*
 
